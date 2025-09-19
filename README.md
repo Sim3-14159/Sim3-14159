@@ -1,16 +1,25 @@
-## Hi there 👋
+# Hi! 👋 I am Simyon.
 
-<!--
-**Sim3-14159/Sim3-14159** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I have (and still am) creating new projects — most of them in **Python**.  
+Some other languages I program in are **C++** (specifically **Arduino**), **JavaScript**, **HTML**, and a little bit of **Java**.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔧 Some of my latest & best projects:
+
+- [**Arduino-compatible Snake clone**](https://github.com/Sim3-14159/Snake)  
+  A classic Snake game recreated for Arduino boards.
+
+- [**make-executable**](https://github.com/Sim3-14159/make-executable)  
+  A simple Linux tool that allows you to make a command-line game or script executable.
+
+---
+
+## 🎮 My **coolest** project:
+
+- [**orpheus-example**](https://github.com/Sim3-14159/orpheus-example)  
+  An **AI-powered game** demonstrating interactive storytelling and decision-making.
+
+---
+
+Thanks for checking out my projects!
