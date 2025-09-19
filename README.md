@@ -7,10 +7,10 @@ Some other languages I program in are **C++** (specifically **Arduino**), **Java
 
 ## 🔧 Some of my latest & best projects:
 
-- [**Arduino-compatible Snake clone**](https://github.com/Sim3-14159/Snake)  
+- [**Arduino-compatible Snake clone**](https://github.com/Sim3-14159/Snake_Game)  
   A classic Snake game recreated for Arduino boards.
 
-- [**make-executable**](https://github.com/Sim3-14159/make-executable)  
+- [**make-executable**](https://github.com/Sim3-14159/Python_Modules/make-executable)  
   A simple Linux tool that allows you to make a command-line game or script executable.
 
 ---
