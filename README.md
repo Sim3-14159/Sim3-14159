@@ -5,20 +5,27 @@ Some other languages I program in are **C++** (specifically **Arduino**), **Java
 
 ---
 
-## 🔧 Some of my latest & best projects:
+## 🔧 Some of my best & latest projects:
 
-- [**Arduino-compatible Snake clone**](https://github.com/Sim3-14159/Snake_Game)  
+
+1. [**orpheus-example**](https://github.com/Sim3-14159/orpheus-example)  
+  An **AI-powered game** demonstrating interactive storytelling and decision-making.
+
+1. [**Arduino-compatible Snake clone**](https://github.com/Sim3-14159/Snake_Game)  
   A classic Snake game recreated for Arduino boards.
 
-- [**make-executable**](https://github.com/Sim3-14159/Python_Modules/make-executable)  
-  A simple Linux tool that allows you to make a command-line game or script executable.
+1. [**make-executable**](https://github.com/Sim3-14159/Python_Modules/make-executable)  
+      A simple Linux command-line tool that allows you to make a game or script executable.
 
----
+1. [**Python_Modules**](https://github.com/Sim3-14159/Python_Modules)
+  A bunch of useful modules for coding in Python.
 
-## 🎮 My **coolest** project:
+    1. [**ansi_colors**](https://github.com/Sim3-14159/Python_Modules/ansi_colors)
+       A simple module that uses ANSI-standard escape sequences to color statements to the standard output.
 
-- [**orpheus-example**](https://github.com/Sim3-14159/orpheus-example)  
-  An **AI-powered game** demonstrating interactive storytelling and decision-making.
+    1. [**MutableTypes**](https://github.com/Sim3-14159/Python_Modules/MutableTypes)
+       A module containing classes for `MutableInt`, `MutableFloat`, `MutableBool`, `MutableStr`, etc. It is exactly what it sounds like: mutable versions of the primitive types.
+
 
 ---
 
