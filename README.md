@@ -11,11 +11,14 @@ Some other languages I program in are **C++** (specifically **Arduino**), **Java
 1. [**orpheus-example**](https://github.com/Sim3-14159/orpheus-example)  
   An **AI-powered game** demonstrating interactive storytelling and decision-making.
 
+1. [**cube-solving-app**](https://github.com/Sim3-14159/cube-solving-app)
+   The code for an app that can solve 3x3 *Rubik's Cubes*. It has a nice GUI and demonstrates many ways to make a practical app with *tk* and `Tkinter`. It is also a great template for other apps.
+
 1. [**Arduino-compatible Snake clone**](https://github.com/Sim3-14159/Snake_Game)  
   A classic Snake game recreated for Arduino boards.
 
 1. [**make-executable**](https://github.com/Sim3-14159/Python_Modules/make-executable)  
-      A simple Linux command-line tool that allows you to make a game or script executable.
+   A simple Linux command-line tool that allows you to make a game or script executable.
 
 1. [**Python_Modules**](https://github.com/Sim3-14159/Python_Modules)
   A bunch of useful modules for coding in Python.
