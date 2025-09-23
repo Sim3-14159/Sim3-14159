@@ -8,7 +8,7 @@ Some other languages I program in are **C++** (specifically **Arduino**), **Java
 ## 🔧 Some of my best & latest projects:
 
 
-1. [**orpheus-example**](https://github.com/Sim3-14159/orpheus-example)  
+1. [**Box Seller**](https://github.com/Sim3-14159/box-seller)  
   An **AI-powered game** demonstrating interactive storytelling and decision-making.
 
 1. [**cube-solving-app**](https://github.com/Sim3-14159/cube-solving-app)
@@ -17,11 +17,11 @@ Some other languages I program in are **C++** (specifically **Arduino**), **Java
 1. [**Arduino-compatible Snake clone**](https://github.com/Sim3-14159/Snake_Game)  
   A classic Snake game recreated for Arduino boards.
 
-1. [**make-executable**](https://github.com/Sim3-14159/Python_Modules/make-executable)  
-   A simple Linux command-line tool that allows you to make a game or script executable.
-
 1. [**Python_Modules**](https://github.com/Sim3-14159/Python_Modules)
   A bunch of useful modules for coding in Python.
+
+    1. [**make-executable**](https://github.com/Sim3-14159/Python_Modules/make-executable)  
+   A simple Linux command-line tool that allows you to make a Python script executable. It can be used like this: `make-executable [option] your file name`. It also has a *tool* option (`-t`) which allows you to run the script from any directory like a built in tool.
 
     1. [**ansi_colors**](https://github.com/Sim3-14159/Python_Modules/ansi_colors)
        A simple module that uses ANSI-standard escape sequences to color statements to the standard output.
