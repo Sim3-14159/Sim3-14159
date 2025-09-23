@@ -20,13 +20,13 @@ Some other languages I program in are **C++** (specifically **Arduino**), **Java
 1. [**Python_Modules**](https://github.com/Sim3-14159/Python_Modules)
   A bunch of useful modules for coding in Python.
 
-    1. [**make-executable**](https://github.com/Sim3-14159/Python_Modules/make-executable)  
+    1. [**make-executable**](https://github.com/Sim3-14159/Python_Modules/blob/main/make-executable.py)  
    A simple Linux command-line tool that allows you to make a Python script executable. It can be used like this: `make-executable [option] your file name`. It also has a *tool* option (`-t`) which allows you to run the script from any directory like a built in tool.
 
-    1. [**ansi_colors**](https://github.com/Sim3-14159/Python_Modules/ansi_colors)
+    1. [**ansi_colors**](https://github.com/Sim3-14159/Python_Modules/blob/main/ansi_colors.py)
        A simple module that uses ANSI-standard escape sequences to color statements to the standard output.
 
-    1. [**MutableTypes**](https://github.com/Sim3-14159/Python_Modules/MutableTypes)
+    1. [**MutableTypes**](https://github.com/Sim3-14159/Python_Modules/blob/main/MutableTypes.py)
        A module containing classes for `MutableInt`, `MutableFloat`, `MutableBool`, `MutableStr`, etc. It is exactly what it sounds like: mutable versions of the primitive types.
 
 
