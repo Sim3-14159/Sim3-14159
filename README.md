@@ -2,6 +2,7 @@
 
 I have (and still am) creating new projects — most of them in **Python**.  
 Some other languages I program in are **C++** (specifically **Arduino**), **JavaScript**, **HTML**, and a little bit of **Java**.
+You can check out my profile website [here](https://Sim3-14159.github.io)
 
 ---
 
