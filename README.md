@@ -19,7 +19,7 @@ You can check out my profile website [here](https://Sim3-14159.github.io)
   A classic Snake game recreated for Arduino boards.
 
  1. [**make-executable**](https://github.com/Sim3-14159/make-executable)  
-   A simple Linux command-line tool that allows you to make a Python script executable. It can be used like this: `make-executable [option] your file name`. It also has a *tool* option (`-t`) which allows you to run the script from any directory like a built in tool.
+   A simple Linux command-line tool that allows you to make a Python script executable. It can be used like this: `make-executable [option] your file name`. It also has a *tool* option (`-t`/`--tool`) which allows you to run the script from any directory like a built in tool.
 
 1. [**Python_Modules**](https://github.com/Sim3-14159/Python_Modules)
   A bunch of useful modules for coding in Python.
