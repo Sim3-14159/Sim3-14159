@@ -18,11 +18,11 @@ You can check out my profile website [here](https://Sim3-14159.github.io)
 1. [**Arduino-compatible Snake clone**](https://github.com/Sim3-14159/Snake_Game)  
   A classic Snake game recreated for Arduino boards.
 
+ 1. [**make-executable**](https://github.com/Sim3-14159/make-executable)  
+   A simple Linux command-line tool that allows you to make a Python script executable. It can be used like this: `make-executable [option] your file name`. It also has a *tool* option (`-t`) which allows you to run the script from any directory like a built in tool.
+
 1. [**Python_Modules**](https://github.com/Sim3-14159/Python_Modules)
   A bunch of useful modules for coding in Python.
-
-    1. [**make-executable**](https://github.com/Sim3-14159/Python_Modules/blob/main/make-executable.py)  
-   A simple Linux command-line tool that allows you to make a Python script executable. It can be used like this: `make-executable [option] your file name`. It also has a *tool* option (`-t`) which allows you to run the script from any directory like a built in tool.
 
     1. [**ansi_colors**](https://github.com/Sim3-14159/Python_Modules/blob/main/ansi_colors.py)
        A simple module that uses ANSI-standard escape sequences to color statements to the standard output.
