@@ -1,13 +1,19 @@
 # Hi! 👋 I am Simyon.
 
-I have (and still am) creating new projects — most of them in **Python**.  
-Some other languages I program in are **C++** (specifically **Arduino**), **JavaScript**, **HTML**, and a little bit of **Java**.
-You can check out my profile website [here](https://Sim3-14159.github.io)
+<br>
 
----
+## ![](https://img.icons8.com/23/info) About me:
+
+I have (and still am) creating new projects — most of them in **Python**.  
+Some other languages I program in are **C++** (specifically **Arduino**), **JavaScript**, **HTML**, **C**, and a little bit of **Java**.
+You can check out my profile website [here](https://Sim3-14159.github.io).
+
+<br>
 
 ## 🔧 Some of my best & latest projects:
 
+1. [**SIMpliCode**](https://github.com/Sim3-14159/simplicode)  
+  A website designer and *HTML* editor with a <mark>live preview</mark> and built-in <mark>AI assistant</mark>.
 
 1. [**Box Seller**](https://github.com/Sim3-14159/box-seller)  
   An **AI-powered game** demonstrating interactive storytelling and decision-making.
@@ -22,7 +28,7 @@ You can check out my profile website [here](https://Sim3-14159.github.io)
    A simple Linux command-line tool that allows you to make a Python script executable. It can be used like this: `make-executable [option] your file name`. It also has a *tool* option (`-t`/`--tool`) which allows you to run the script from any directory like a built in tool.
 
 1. [**Python_Modules**](https://github.com/Sim3-14159/Python_Modules)
-  A bunch of useful modules for coding in Python.
+  A bunch of useful modules for coding in *Python*.
 
     1. [**ansi_colors**](https://github.com/Sim3-14159/Python_Modules/blob/main/ansi_colors.py)
        A simple module that uses ANSI-standard escape sequences to color statements to the standard output.
@@ -33,4 +39,4 @@ You can check out my profile website [here](https://Sim3-14159.github.io)
 
 ---
 
-Thanks for checking out my projects!
+Thanks for checking out my projects.
