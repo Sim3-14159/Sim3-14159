@@ -5,13 +5,272 @@
   <title>Profile • Sim3-14159</title>
   <link rel="icon" href="favicon.ico">
   <style>
-    .content {
-      display: block;
+    :root {
+      --bg: #010103;
+      --accent: #00f2ff;
+      --glow: #00f2ff33;
+      --text: #333;
+      --gray: #5a5d66;
     }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+     /* justify-content: center;*/
+     /* align-items: center;*/
+      background-color: #eeeeee;
+      color: #222;
+      font-family: "Arial";
+      display: flex;
+      flex-direction: column;
+    }
+    
+    mark {
+      background-color: rgba(255, 255, 0, 0.5);
+      padding-right: 2px;
+      padding-left: 2px;
+      margin-left: -2px;
+      margin-right: -2px;
+      border-radius: 3px;
+    }
+    
+    #content {
+      position: relative;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      background-color: #ddd;
+      max-width: 10000px;
+      width: 80vw;
+      
+      padding: 5px;
+      margin: 0 auto;
+    }
+    
+    .heading {
+      line-height: 1rem;
+      font-size: 2.4rem;
+      font-family: monospace;
+    }
+    
+    
+    nav {
+        position: fixed;
+  z-index: 10; 
+  top: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  width: 100%;
+   min-height: auto;
+  height: 90px;
+padding-top: 16px;
+padding-right: 10px;
+padding-left: 5px;
+      }
+
+a {
+text-decoration: none;
+cursor: pointer;
+}
+      
+      nav button {
+        position: relative;
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        border-radius: 5px;
+        font-size: 30px;
+        cursor: pointer;
+      }
+      
+      nav button:hover {
+        background-color: rgba(0, 100, 100, 0.5);
+      }
+      
+      nav img {
+        width: auto;
+        height: 1em;
+    }
+
+    /* Tooltip styles */
+    .tooltip {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--accent);
+      color: var(--bg);
+      padding: 4px 8px;
+      font-size: 12px;
+      border-radius: 2px;
+      white-space: nowrap;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.3s, transform 0.3s;
+      z-index: 11;
+    }
+    
+    button:hover .tooltip {
+      opacity: 1;
+      transform: translate(-50%, 4px);
+    }
+
+.colored {
+display: none;
+}
+
+.uncolored {
+display: inline;
+}
+
+    button:hover .colored {
+      display: inline;
+      transform: scale(1.1);
+    }
+
+button:hover .uncolored {
+      display: none;
+    }
+
+body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      color: var(--text);
+      font-family: "Fira Code", monospace;
+      overflow: hidden;
+      perspective: 1200px;
+
+      background-color: #0d1117;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+        linear-gradient(to right, rgba(255,255,255,0.015) 1px, transparent 1px);
+
+      background-size: 100% 20px, 40px 100%;
+      /*color: #f2f2f2;*/
+      font-family: 'Segoe UI', Arial, sans-serif;
+      min-height: 100vh;
+      margin: 0;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      justify-content: left;
+      overflow-y: auto;
+      position: relative; /* stacking context for z-index */
+    }
+
+/*
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('data:image/svg+xml;utf8,<svg width="4" height="4" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="1" fill="white" fill-opacity="0.03"/></svg>');
+      z-index: 0;
+      pointer-events: none;
+    }
+*/
+
+.url-sim {
+color: rgba(255, 255, 255, 0.2);
+font-size: 20px;
+margin-right: 0px;
+}
+
+.url-sim:hover {
+color: rgba(0, 247, 234, 0.2);
+}
+
+.url-main {
+color: rgba(250, 222, 197, 0.7);
+font-size: 20px;
+font-family: monospace;
+margin-left: 0px;
+}
+
+.url-main:hover {
+color: rgba(252, 186, 121, 1);
+}
+
+.url {
+float: right;
+margin: 10px;
+font-size: 1.2em;
+}
+
+.copyright {
+position: absolute;
+color: #444; 
+font-family: 'Times'; 
+font-size: 0.3em; 
+padding: 0px; 
+height: 0px;
+width: fit-content;
+bottom: 0;
+}
   </style>
 </head>
 <body>
+  <br><br><br><br>
+  <nav>
+   
+    <a href="./">
+    <button id="home">
+      <img src="https://img.icons8.com/color/home" class="colored">
+      <img src="https://img.icons8.com/ios-filled/ffffff/home" class="uncolored">
+      <span class="tooltip">Home</span>
+    </button>
+    </a>
+
+    <a href="./about.html">
+    <button id="info">
+      <img src="https://img.icons8.com/color/info" class="colored">
+      <img src="https://img.icons8.com/ios-filled/eeeeee/info" class="uncolored">
+      <span class="tooltip">About Me</span>
+    </button>
+    </a>
+
+    <a href="./websites.html">
+    <button id="www">
+      <img src="https://img.icons8.com/color/internet" class="colored">
+      <img src="https://img.icons8.com/ios-filled/eeeeee/internet" class="uncolored">
+      <span class="tooltip">Websites</span>
+    </button>
+    </a>
+
+    <a href="./github.html">
+    <button id="github">
+      <img src="https://img.icons8.com/color/github" class="colored">
+      <img src="https://img.icons8.com/ios-filled/eeeeee/github" class="uncolored">
+      <span class="tooltip">GitHub</span>
+    </button>
+    </a>
+
+    <a href="articles">
+    <button id="github">
+      <img src="https://img.icons8.com/color/paper" class="colored">
+      <img src="https://img.icons8.com/ios-filled/eeeeee/paper" class="uncolored">
+      <span class="tooltip">Articles</span>
+    </button>
+    </a>
+
+<span class="url">
+<span class="url-sim">Sim3-14159/</span>
+<a href="./"><span class="url-main">about</span></a>
+</span>
+  </nav>
+  
   <div id="content"></div>
+  
+  <br><br><br><br>
+
+
+
+<span class="copyright">Copyright &copy; 2025 Sim3-14159. Icons by Icons8.</span>
+
+  
   <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
   <script>
 async function getTextFromUrl(url) {
@@ -47,3 +306,6 @@ getTextFromUrl(targetUrl)
   </script>
 </body>
 </html>
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
