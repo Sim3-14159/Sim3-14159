@@ -2,7 +2,7 @@
 
 <br>
 
-## ![](https://img.icons8.com/23/info) About me:
+## <img src="https://img.icons8.com/color/100/info" height="23px"> About me:
 
 I have (and still am) creating new projects — most of them in **Python**.  
 Some other languages I program in are **C++** (specifically **Arduino**), **JavaScript**, **HTML**, **C**, and a little bit of **Java**.
