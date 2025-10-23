@@ -2,13 +2,18 @@
 <html>
 <head>
   <meta charset="utf-8"/>
-  <title>Marked in the browser</title>
+  <title>Profile • Sim3-14159</title>
+  <link rel="icon" href="favicon.ico">
+  <style>
+    .content {
+      display: block;
+    }
+  </style>
 </head>
 <body>
   <div id="content"></div>
   <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
   <script>
-
 async function getTextFromUrl(url) {
   try {
     const response = await fetch(url);
@@ -24,9 +29,21 @@ async function getTextFromUrl(url) {
     return null; // Or handle the error as appropriate
   }
 }
-    
-    document.getElementById('content').innerHTML =
-      marked.parse(getTextFromUrl("./README.md"));
+
+// Example usage:
+const targetUrl = "https://sim3-14159.github.io/Sim3-14159/READMEs.md"; // Replace with your desired URL
+
+getTextFromUrl(targetUrl)
+  .then(text => {
+    if (text) {
+      document.getElementById('content').innerHTML = marked.parse(text);
+      console.log(`Got README from ${targetUrl}`);
+      // You can now process 'text' as needed, e.g., display it on the page
+    } else {
+      document.getElementById('content').innerHTML = `<h1 style="color: red;">Unable to load README data from <a href="${targetUrl}">${targetUrl}</a><br><a href=""><button style="cursor: pointer">Go Home</button></a><a href=""><button style="cursor: pointer">Reload</button></a><a href=""><button style="cursor: pointer">GitHub</button></a></h1>`;
+      console.error(`Failed to retrieve text content from ${targetUrl}`);
+    }
+  });
   </script>
 </body>
 </html>
