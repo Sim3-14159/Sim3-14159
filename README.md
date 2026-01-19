@@ -4,7 +4,7 @@
 
 ## ℹ️ About me
 
-I have (and still am) creating new projects — most of them in **Python**.  
+I love electrical engineering and coding. I am constantly creating new projects — most of them in **Python**.  
 Some other languages I program in are **C++** (specifically **Arduino**), **JavaScript**, **HTML**, **C**, and a little bit of **Java**.
 You can check out my profile website [here](https://Sim3-14159.github.io).
 
@@ -15,20 +15,17 @@ You can check out my profile website [here](https://Sim3-14159.github.io).
 1. [**SIMpliCode**](https://github.com/Sim3-14159/simplicode)  
   A website designer and *HTML* editor with a <mark>live preview</mark> and built-in <mark>AI assistant</mark>.
 
-1. [**Emoji App**](https://github.com/Sim3-14159/emoji-app)
-   Have you got yourself a Raspberry Pi? Well, Raspberry Pis **don't** have emoji support! 😱 I know it sounds horrible, but this app, written in Python, can easily be run as a `.py` or an executable.
-
-1. [**Box Seller**](https://github.com/Sim3-14159/box-seller)  
-  An **AI-powered game** demonstrating interactive storytelling and decision-making.
-
 1. [**Cube Solving App**](https://github.com/Sim3-14159/cube-solving-app)
    The code for an app that can solve 3x3 *Rubik's Cubes*. It has a nice GUI and demonstrates many ways to make a practical app with *tk* and `Tkinter`. It is also a great template for other apps.
+
+1. [**Emoji App**](https://github.com/Sim3-14159/emoji-app)
+   Have you got yourself a Raspberry Pi? Well, Raspberry Pis **don't** have emoji support! 😱 I know it sounds horrible, but this app, written in Python, can easily be run as a `.py` or an executable.
 
 1. [**Arduino-compatible Snake clone**](https://github.com/Sim3-14159/Snake_Game)  
   A classic Snake game recreated for Arduino boards.
 
  1. [**make-executable**](https://github.com/Sim3-14159/make-executable)  
-   A simple Linux command-line tool that allows you to make a Python script executable. It can be used like this: `make-executable [option] your file name`. It also has a *tool* option (`-t`/`--tool`) which allows you to run the script from any directory like a built in tool.
+   A simple Linux command-line tool that allows you to make a Python script executable. It can be used like this: `make-executable [option] your file name`. It also has a *tool* option (`-t`/`--tool`) which allows you to run the script from any directory like a built-in tool.
 
 1. [**Python_Modules**](https://github.com/Sim3-14159/Python_Modules)
   A bunch of useful modules for coding in *Python*.
@@ -42,4 +39,4 @@ You can check out my profile website [here](https://Sim3-14159.github.io).
 
 ---
 
-Thanks for checking out my projects.
+Thanks for checking out my projects!
