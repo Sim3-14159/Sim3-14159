@@ -1,4 +1,4 @@
-# Hi! 👋 I am <mark> $\color{orange}\text{@Sim3-14159}$. </mark>
+# Hi! 👋 I am <mark> $\color{orange}\text{@Sim3-14159}$</mark>.
 
 <br>
 
