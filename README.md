@@ -8,4 +8,12 @@ I love electrical engineering and coding. I am constantly creating new projects 
 Some other languages I program in are **C++** (mostly for Arduino), **JavaScript** (and **HTML** and **CSS**, of course), **Java**, **Lua**, **Julia**, and a little bit of **C**.
 You can check out my profile website [here](https://Sim3-14159.github.io).
 
-I have experience with frontend and backend development, **Linux**, and **IoT**.
+I have experience with frontend and backend development, **Linux**, **Robotics**, and **IoT**.
+
+---
+
+<div align="center">
+
+  #### Check me out on 
+  [**`itch.io`**](https://sim314159.itch.io) ● [**`YouTube`**](https://youtube.com/@SIMpliSolver)
+</div>
